@@ -1,0 +1,84 @@
+.a{
+    position: relative;
+    top: -20px;
+    background: black;
+    color: greenyellow;
+    height: 80px;
+    text-align: center;
+}
+.fa-facebook {
+    color: white;
+    text-align: center;
+}
+
+.navbar-inverse{
+    position: relative;
+    top: -20px;
+}
+li {
+
+    margin: -4px 150px 6px -4px;
+  }
+  .fc1{
+      background: black;
+      color: white;
+  }
+#slider{
+    margin:0;
+    padding: 0;
+}
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    90%{
+        left: -400%;
+    }
+    100%{
+        left: 0;
+    }
+
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 90%;
+
+}
+#slider figure{
+    top: -20px;
+    position: relative;
+    width:500%;
+    animation: slide 15s infinite;
+}
+
+
+
+

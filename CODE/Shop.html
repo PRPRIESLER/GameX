@@ -1,0 +1,472 @@
+<html>
+
+<head>
+    <title>
+
+    </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styleShop.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <script>
+        function book(id) {
+            if (confirm('Are you sure')) {
+                $.post('Shopserver.php', { pid: id });
+                alert('item added to cart');
+            }
+        }
+    </script>
+    <style>
+            @font-face{
+                font-family: Heading;
+                src: url("font/BlackOpsOne-Regular.ttf");
+            } 
+            h1{
+                font-family: Heading;
+                font-size: 60px;
+            }
+        </style>
+</head>
+
+<body style="background:url(images/Background.jpg)">
+    <section class="a">
+        <div class=Header1>
+            <h1>GaMeX
+                <small>heat zone</small>
+            </h1>
+        </div>
+    </section>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="Home.html">Home</a>
+                </li>
+                <li>
+                    <a href="Shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="Login.php">Logout</a>
+                </li>
+                <li>
+                    <a href="cart.php">Cart </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/GameX-384127525371895/" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <video id="bgVideo1" preload="true" autoplay loop muted>
+        <source src="Video/Console.MP4" type="video/mp4">
+    </video>
+    <H2 id="first">High-End Keyboard</H2>
+
+    <center>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB1.jpg" alt="" style="border:5px solid rgb(12, 18, 39);">
+
+                <br>
+                <strong style="color:white">Corsair K95 RGB </strong>
+                <br>
+                <i style="color:white">Price:1470&#x20B9;s</i>
+                <button type="button" class="btn btn-success" onclick="book(10)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB2.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">Roccat Ryos MK Pro </strong>
+                <br>
+                <i style="color:white">Price:8000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(11)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB3.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Razer Ornata Chroma </strong>
+                <br>
+                <i style="color:white">Price:6500&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(12)">Add to cart</button>
+            </div>
+        </div>
+
+
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB4.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Corsair Strafe Mechanical </strong>
+                <br>
+                <i style="color:white">Price:6400&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(13)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB5.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Das Keyboard X40</strong>
+                <br>
+                <i style="color:white">Price:7000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(14)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB6.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Logitech G610 Orion Brown</strong>
+                <br>
+                <i style="color:white">Price:7800&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(15)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB7.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Logitech G910 Orion Spectrum </strong>
+                <br>
+                <i style="color:white">Price:11700&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(16)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB8.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    Razer BlackWidow</strong>
+                <br>
+                <i style="color:white">Price:9000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(17)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro1">
+            <div>
+                <img src="images\keyboard\KB9.jpg" alt="" style="border:5px solid rgb(12, 18, 39)">
+                <br>
+                <strong style="color:white">
+                    SteelSeries Apex M500 </strong>
+                <br>
+                <i style="color:white">Price:6700&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(18)">Add to cart</button>
+            </div>
+        </div>
+
+    </center>
+
+
+
+
+
+    <video id="bgVideo2" preload="true" autoplay loop muted>
+        <source src="Video/Headphones.mov" type="video/mp4">
+    </video>
+    <H2 id="second">High-End Headphones</H2>
+    <center>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP1.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">HyperX Cloud Revolver </strong>
+                <br>
+                <i style="color:white">Price:9000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(19)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP2.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Steelseries Arctis Series </strong>
+                <br>
+                <i style="color:white">Price:8700&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(20)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP3.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Razer ManO'War 7.1 </strong>
+                <br>
+                <i style="color:white">Price:6900&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(21)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP4.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Razer Kraken Pro V2 </strong>
+                <br>
+                <i style="color:white">Price:7800&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(22)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP5.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Logitech G231 Prodigy </strong>
+                <br>
+                <i style="color:white">Price:6500&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(23)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP6.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">HyperX Cloud Stinger </strong>
+                <br>
+                <i style="color:white">Price:7000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(24)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP7.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Turtle Beach Force Recon 50P</strong>
+                <br>
+                <i style="color:white">Price:8000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(25)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP8.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">Logitech G933 Artemis Spectrum</strong>
+                <br>
+                <i style="color:white">Price:8200&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(26)">Add to cart</button>
+            </div>
+        </div>
+        <div id="pro2">
+            <div>
+                <img src="images\headphones\HP9.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:350px;width:350px;">
+                <br>
+                <strong style="color:white">ASTRO Gaming A40 TR </strong>
+                <br>
+                <i style="color:white">Price:11000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(27)">Add to cart</button>
+            </div>
+        </div>
+    </center>
+
+    <video id="bgVideo3" preload="true" autoplay loop muted>
+        <source src="Video/Mouse.mov" type="video/mp4">
+    </video>
+    <H2 id="third">High-End Mouses</H2>
+    <center>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M1.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Steel Series Rival 700</strong>
+                <br>
+                <i style="color:white">Price:4800&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(28)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M2.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white">Asus ROG Spatha </strong>
+                <br>
+                <i style="color:white">Price:10000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(29)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M3.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Razer Ouroboros </strong>
+                <br>
+                <i style="color:white">Price:6200&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(30)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M4.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Logitech G900 Chaos Spectrum </strong>
+                <br>
+                <i style="color:white">Price:7050&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(31)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M5.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Corsair M65 Pro RGB</strong>
+                <br>
+                <i style="color:white">Price:4500&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(32)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M6.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Logitech G502</strong>
+                <br>
+                <i style="color:white">Price:4300&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(33)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M7.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Razer DeathAdder Chroma</strong>
+                <br>
+                <i style="color:white">Price:3800&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(34)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M8.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white">Corsair Scimitar RGB</strong>
+                <br>
+                <i style="color:white">Price:8000&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(35)">Add to cart</button>
+            </div>
+        </div>
+        </div>
+        <div id="pro3">
+            <div>
+                <img src="images\mouse\M9.jpg" alt="" style="border:5px solid rgb(12, 18, 39); height:300px;width:300px;">
+                <br>
+                <strong style="color:white"> Razer Naga Hex V2</strong>
+                <br>
+                <i style="color:white">Price:6900&#x20B9;</i>
+                <button type="button" class="btn btn-success" onclick="book(36)">Add to cart</button>
+            </div>
+        </div>
+        
+    </center>
+    
+
+    <footer style="position: relative; width:1400px;top:1200px; left: 0px; height: 180px; bottom: auto;" class="fc1_footer fc1"
+        data-state=" " id="SITE_FOOTER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER">
+        <div id="SITE_FOOTERscreenWidthBackground" class="fc1screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$screenWidthBackground"
+            style="width: 758px; left: 0px;">
+            <div class="fc1_bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$screenWidthBackground.0"></div>
+        </div>
+        <div id="SITE_FOOTERcenteredContent" class="fc1centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent">
+            <div id="SITE_FOOTERbg" class="fc1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$bg"></div>
+            <div id="SITE_FOOTERinlineContent" class="fc1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent">
+                <div style="left: 681px; width: 1050px; position: absolute; top: 61px;" class="s_SmHkWRichTextNewSkin" id="comp-j9tym3fb"
+                    data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb">
+                    <p class="font_9" style="text-align:center; line-height:1.55em;">
+                        <span class="color_11">Bengaluru, Karnataka, India</span>
+                    </p>
+                </div>
+                <div style="left: 400px; width: 500px; position: absolute; top: 49px;" class="s_SmHkWRichTextNewSkin" id="comp-j9tym3fb1"
+                    data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb1">
+                    <p class="font_9" style="text-align:center; line-height:1.55em;">
+                        <span class="color_11">mkumarpani@gmail.com</span>
+                    </p>
+                </div>
+                <div style="left: 386px; width: 500px; position: absolute; top: 73px;" class="s_SmHkWRichTextNewSkin" id="comp-j9tym3fb2"
+                    data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb2">
+                    <p class="font_9" style="text-align:center; line-height:1.55em;">
+                        <span class="color_11">9108906821</span>
+                    </p>
+                </div>
+                <div style="width: 80px; left: 20px; position: absolute; top: 63px; height: 20px;" class="lb1" id="comp-j9tym3fb3" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3">
+                    <ul aria-label="Social bar" id="comp-j9tym3fb3itemsContainer" class="lb1itemsContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer">
+                        <li style="width:20px;height:20px;margin-bottom:0;margin-right:10px;display:inline-block;" class="lb1imageItem" id="comp-j9tym3fb30image"
+                            data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.0">
+                            <a href="https://www.facebook.com/wix" target="_blank" data-content="https://www.facebook.com/wix" data-type="external" id="comp-j9tym3fb30imagelink"
+                                class="lb1imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.0.$link">
+                                <div id="comp-j9tym3fb30imageimage" style="position: absolute; width: 20px; height: 20px;" data-style="position:absolute"
+                                    class="lb1imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.0.$link.0">
+                                    <div class="lb1imageItemimagepreloader" id="comp-j9tym3fb30imageimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.0.$link.0.$preloader"></div>
+                                    <img id="comp-j9tym3fb30imageimageimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.0.$link.0.$image"
+                                        src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.png"
+                                        style="width: 20px; height: 20px; object-fit: cover;">
+                                </div>
+                            </a>
+                        </li>
+                        <li style="width:20px;height:20px;margin-bottom:0;margin-right:10px;display:inline-block;" class="lb1imageItem" id="comp-j9tym3fb31image"
+                            data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.1">
+                            <a href="https://twitter.com/Wix" target="_blank" data-content="https://twitter.com/Wix" data-type="external" id="comp-j9tym3fb31imagelink"
+                                class="lb1imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.1.$link">
+                                <div id="comp-j9tym3fb31imageimage" style="position: absolute; width: 20px; height: 20px;" data-style="position:absolute"
+                                    class="lb1imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.1.$link.0">
+                                    <div class="lb1imageItemimagepreloader" id="comp-j9tym3fb31imageimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.1.$link.0.$preloader"></div>
+                                    <img id="comp-j9tym3fb31imageimageimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.1.$link.0.$image"
+                                        src="https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,usm_0.66_1.00_0.01/01ab6619093f45388d66736ec22e5885.png"
+                                        style="width: 20px; height: 20px; object-fit: cover;">
+                                </div>
+                            </a>
+                        </li>
+                        <li style="width:20px;height:20px;margin-bottom:0;margin-right:10px;display:inline-block;" class="lb1imageItem" id="comp-j9tym3fb32image"
+                            data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.2">
+                            <a href="https://www.linkedin.com/company/wix-com" target="_blank" data-content="https://www.linkedin.com/company/wix-com"
+                                data-type="external" id="comp-j9tym3fb32imagelink" class="lb1imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.2.$link">
+                                <div id="comp-j9tym3fb32imageimage" style="position: absolute; width: 20px; height: 20px;" data-style="position:absolute"
+                                    class="lb1imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.2.$link.0">
+                                    <div class="lb1imageItemimagepreloader" id="comp-j9tym3fb32imageimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.2.$link.0.$preloader"></div>
+                                    <img id="comp-j9tym3fb32imageimageimage" alt="" data-type="image" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb3.$itemsContainer.2.$link.0.$image"
+                                        src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_20,h_20,al_c,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.png"
+                                        style="width: 20px; height: 20px; object-fit: cover;">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="left: 480px; width: 322px; position: absolute; top: 140px;" class="s_SmHkWRichTextNewSkin" id="comp-j9tym3fb4"
+                    data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.$centeredContent.$inlineContent.$comp-j9tym3fb4">
+                    <p class="font_10" style="text-align:center; line-height:1.43em;">
+                        <span class="color_11">&copy;2017 by GameX. Created by Pinaki Pani</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

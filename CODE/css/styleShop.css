@@ -1,0 +1,119 @@
+body{
+    background-image:url('C:/wamp64/www/PRP/images/Background.jpg') ;
+}
+.a{
+    position: relative;
+    top: -20px;
+    background: black;
+    color: greenyellow;
+    height: 80px;
+    text-align: center;
+}
+.fa-facebook {
+    color: white;
+    text-align: center;
+}
+
+.navbar-inverse{
+    position: relative;
+    top: -20px;
+}
+a.navbar-brand{
+    margin-right: 50px;
+}
+li {
+
+    margin: -4px 150px 6px -4px;
+  }
+#bgVideo1{
+    top: 132px;
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    left: -32px;
+    overflow: hidden;
+    z-index: -100; 
+    -webkit-transform: scaleX(1.54);
+    -moz-transform: scaleX(1.0);
+
+}
+.fc1{
+    background: black;
+    color: white;
+}
+#first{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 150px;
+    color: greenyellow;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+#pro1{
+    position: relative;
+    top: 268px;
+    display:inline-block;
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+}
+#bgVideo2{
+    top: 1800px;
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    left: -32px;
+    overflow: hidden;
+    -webkit-transform: scaleX(1.54); 
+    -moz-transform: scaleX(1.5);
+    background: 5px;
+}
+#bgVideo2::-webkit-meter-bar{
+    display: none;
+}
+#second{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: relative;
+        top: 400px;
+        color: greenyellow;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 150px;
+}
+#pro2{
+    position: relative;
+    top: 650px;
+    display:inline-block;
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+}
+#bgVideo3{
+    top: 3700px;
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    left: -32px;
+    overflow: hidden;
+    -webkit-transform: scaleX(1.54); 
+    -moz-transform: scaleX(1.5);
+}
+#third{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: relative;
+        top: 800px;
+        color: greenyellow;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 150px;
+}
+#pro3{
+    position: relative;
+    top: 1090px;
+    display:inline-block;
+    text-align: center;
+    padding: 40px 40px 0px 40px;
+}
+#qq{
+    
+    position: relative;
+    top:0px;
+}
